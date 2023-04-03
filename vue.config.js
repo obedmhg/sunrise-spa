@@ -6,8 +6,8 @@ const PROJECT_VIEW_PATH =
 module.exports = {
   pluginOptions: {
     i18n: {
-      locale: 'en',
-      fallbackLocale: 'en',
+      locale: 'en-US',
+      fallbackLocale: 'en-US',
       enableLegacy: false,
       runtimeOnly: false,
       compositionOnly: false,

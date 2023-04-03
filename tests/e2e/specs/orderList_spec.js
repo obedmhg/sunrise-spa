@@ -17,23 +17,23 @@ describe('my orders', () => {
 
   const cartDraft1 = {
     customerEmail: 'charlie.bucket+ci@commercetools.com',
-    currency: 'EUR',
+    currency: 'USD',
     lineItems: {
       sku: 'M0E20000000ELAJ',
     },
     shippingAddress: {
-      country: 'DE',
+      country: 'US',
     },
   };
 
   const cartDraft2 = {
     customerEmail: 'charlie.bucket+ci@commercetools.com',
-    currency: 'EUR',
+    currency: 'US',
     lineItems: {
       sku: 'M0E20000000DX1Y',
     },
     shippingAddress: {
-      country: 'DE',
+      country: 'US',
     },
   };
 

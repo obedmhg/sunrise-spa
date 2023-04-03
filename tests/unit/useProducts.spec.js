@@ -32,8 +32,8 @@ const createParams = (params = {}) => ({
   locale: ref('en'),
   limit: ref(2),
   offset: ref(0),
-  currency: ref('EUR'),
-  country: ref('DE'),
+  currency: ref('USD'),
+  country: ref('US'),
   sorts: ref(null),
   categorySlug: ref(null),
   sku: ref(null),
@@ -48,7 +48,7 @@ describe('useProducts', () => {
       'en'
     );
     [
-      ['locale', ref('de'), 'de'],
+      ['locale', ref('US'), 'US'],
       ['limit', ref(10), 10],
       ['offset', ref(5), 5],
       ['sorts', ref('hello'), 'hello'],
@@ -67,13 +67,13 @@ describe('useProducts', () => {
         'currency',
         'USD',
         (o) => o.priceSelector.value,
-        { currency: 'USD', country: 'DE' },
+        { currency: 'USD', country: 'US' },
       ],
       [
         'country',
         'US',
         (x) => x.priceSelector.value,
-        { currency: 'EUR', country: 'US' },
+        { currency: 'USD', country: 'US' },
       ],
       [
         'categorySlug',

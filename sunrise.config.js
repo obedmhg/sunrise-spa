@@ -40,19 +40,19 @@ const config = {
       'https://api.europe-west1.gcp.commercetools.com',
   },
   languages: {
-    en: 'English',
+    'en-US': 'English',
     de: 'Deutsch',
   },
   countries: {
-    DE: 'Deutschland',
     US: 'United States',
+    DE: 'Deutschland',
   },
   formats: {
     number: {
       DE: {
         currency: {
           style: 'currency',
-          currency: 'EUR',
+          currency: 'USD',
           currencyDisplay: 'symbol',
         },
       },

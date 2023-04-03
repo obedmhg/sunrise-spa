@@ -26,8 +26,8 @@ describe('OrderDetailPage', () => {
   };
 
   const cartDraft = {
-    currency: 'EUR',
-    country: 'DE',
+    currency: 'USD',
+    country: 'US',
     customerEmail: 'charlie.bucket+ci@commercetools.com',
     shippingAddress: {
       title: 'Mr.',
@@ -38,7 +38,7 @@ describe('OrderDetailPage', () => {
       additionalStreetInfo: '3. OG',
       postalCode: '12059',
       city: 'Berlin',
-      country: 'DE',
+      country: 'US',
       phone: '123456789',
       email: 'charlie.bucket+ci@commercetools.com',
     },
@@ -51,7 +51,7 @@ describe('OrderDetailPage', () => {
       additionalStreetInfo: '3. OG',
       postalCode: '12059',
       city: 'Berlin',
-      country: 'DE',
+      country: 'US',
       phone: '123456789',
       email: 'charlie.bucket+ci@commercetools.com',
     },

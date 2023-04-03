@@ -5,11 +5,11 @@ describe('Product detail page', () => {
     {
       value: {
         centPrecision: {
-          currencyCode: 'EUR',
+          currencyCode: 'USD',
           centAmount: 2200,
         },
       },
-      country: 'DE',
+      country: 'US',
     },
   ];
   const draft = {
